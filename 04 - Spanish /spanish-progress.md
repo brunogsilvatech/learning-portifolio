@@ -4,145 +4,73 @@
 
 ---
 
-# 🎯 Weekly Objective
-Establecer base estructural sólida en producción oral, reducir interferencia del portugués y estabilizar frases cortas en presente.
+## Weekly Objective  
+
+Establish a solid structural base in oral production, reduce Portuguese interference, and stabilize B1-level sentence construction.
 
 ---
 
-# 📊 CEFR Positioning (Evidence-Based)
+## CEFR Positioning (Evidence-Based)
 
-Start of Week: **A2 high (structural interference)**  
-End of Week: **B1- (emerging structural control)**  
+**Start of Week:** A2 High (structural interference present)  
+**End of Week:** B1- (emerging structural control)
 
-No es un salto de nivel completo.  
-Es movimiento dentro de la zona de transición A2 → B1.
+No artificial level inflation.  
+No exaggerated leap.
 
----
-
-# 📈 Skill Breakdown
-
-## 1️⃣ Sentence Control (Short Structure Discipline)
-Start: A2  
-End: B1-  
-
-Progress:
-```
-A2     ███░░
-A2+    ████░
-B1-    █████
-```
-
-Improvement:
-- Frases más cortas y controladas  
-- Menos colapso estructural  
-- Mejor separación de ideas  
-
-Remaining Issue:
-- Tendencia a sobreconstruir oraciones  
+Progress is structural, not superficial.
 
 ---
 
-## 2️⃣ Portuguese Interference Reduction
-Start: High  
-End: Moderate (controlled)
+## Skill Breakdown
 
-Progress:
-```
-High       █████
-Moderate   ████░
-Low        ██░░░
-```
+### Speaking  
+- Improved sentence stability  
+- Reduced breakdown under moderate speed  
+- Still occasional pronominal order interference  
 
-Improvements:
-- Eliminación de “gustaría de”  
-- Sustitución estable de “mas” por “pero”  
-- Mejor uso de “muy” vs “mucho”
+### Grammar  
+- Consolidation of B1 core structures  
+- Beginning controlled past tense expansion  
 
-Remaining:
-- Orden pronominal ocasionalmente inestable  
-- Transferencia automática bajo velocidad  
+### Listening  
+- High comprehension of structured input  
+- Minor lag under natural-speed speech  
 
 ---
 
-## 3️⃣ Present Tense Stability
-Start: A2  
-End: B1-  
+## Recurring Weak Patterns
 
-Progress:
-```
-A2     ███░░
-A2+    ████░
-B1-    █████
-```
-
-Observed:
-- Producción estable en presente  
-- Mejor consistencia en estructuras básicas  
-- Menos mezcla inmediata con portugués  
+- Pronominal order under speed  
+- Portuguese interference during spontaneous output  
+- Overthinking during past tense production  
 
 ---
 
-## 4️⃣ Fluency Under Real-Time Speech
-Start: A2+  
-End: B1-  
+## Measurable Improvements This Week
 
-Improvements:
-- Mayor control emocional  
-- Mejor recuperación tras error  
-- Mayor conciencia de interferencia  
-
-Remaining:
-- Confusión fonética ocasional  
-- Mezcla espontánea bajo carga cognitiva  
+- Sustained production without freezing  
+- Better pronominal order awareness  
+- Reduced interference when speaking slowly  
+- Greater structural consistency  
 
 ---
 
-# 🧠 Cognitive vs Structural Gap
+## Focus for Week 2
 
-Comprensión: **B1 sólido**  
-Producción estructural: **B1- emergente**
-
-Brecha reduciéndose.
-
----
-
-# 🔎 Recurring Weak Patterns
-
-- Orden de pronombres (decirme / evaluarme)  
-- Uso innecesario de preposición  
-- Falsos amigos del portugués  
-- Intensificadores mal transferidos  
+1. Automatic pronominal order  
+2. Interference reduction under speed  
+3. B1 structure consolidation  
+4. Controlled expansion into past narration  
+5. More natural production without overthinking  
 
 ---
 
-# 🚀 Measurable Improvements This Week
+## Summary Assessment
 
-✔ Mayor disciplina en frases cortas  
-✔ Corrección inmediata aceptada sin resistencia  
-✔ Reducción visible de interferencia  
-✔ Mejor control del presente  
-✔ Producción sostenida sin bloqueo  
+This week shows real structural stabilization.
 
----
-
-# 📅 Focus for Week 2
-
-1. Orden pronominal automático  
-2. Reducción de interferencia bajo velocidad  
-3. Consolidación de estructuras B1  
-4. Expansión controlada hacia pasado  
-5. Producción más natural sin sobrepensar  
-
----
-
-# 📌 Summary Assessment
-
-Semana de estabilización estructural real.
-
-Sin inflación de nivel.  
-Sin salto artificial.
-
-Trayectoria:  
-**A2 high → B1- (emerging)**  
+Trajectory:  
+A2 High → B1- (emerging)
 
 Direction: Upward.
