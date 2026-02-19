@@ -1425,3 +1425,181 @@ Correctness alone is insufficient — structure matters.
 No claims extend beyond observed ability.
 
 Progress is real and consistent.
+
+---
+
+# 📘 Learning Log — Python & Mathematical Logic  
+📅 2026-02-19  
+Session Duration: ~1h20  
+Focus: Modulus operator, divisibility logic, conditional hierarchy, LCM reasoning  
+
+---
+
+## 🎯 Session Objectives
+
+- Consolidate understanding of the modulus operator `%`
+- Practice divisibility logic
+- Model correct `if / elif` precedence
+- Connect mathematical factorization with program logic
+- Apply control flow reasoning in executable code
+
+---
+
+## 🧠 Core Technical Concepts
+
+### 1️⃣ Modulus Operator `%`
+
+Definition applied:
+
+```python
+number % divisor == 0
+```
+
+Meaning:  
+The number is divisible by the divisor (remainder equals zero).
+
+Clarifications reinforced:
+
+- `=` → assignment  
+- `==` → comparison  
+
+Examples analyzed:
+
+```python
+32 % 8 == 0  # True
+7 % 2 == 0   # False
+```
+
+---
+
+### 2️⃣ Conditional Ordering & Logical Reachability
+
+Key structural insight:
+
+When combining divisibility checks (e.g., 3 and 5),  
+the most specific condition must appear first.
+
+Correct hierarchy:
+
+```python
+if number % 3 == 0 and number % 5 == 0:
+    print("Multiple of 3 and 5")
+elif number % 5 == 0:
+    print("Multiple of 5")
+elif number % 3 == 0:
+    print("Multiple of 3")
+else:
+    print("Not a multiple of 3 or 5")
+```
+
+Why:
+
+If `% 3 == 0` is checked first,  
+the combined case (`3 and 5`) becomes unreachable.
+
+This reinforced:
+
+- Execution path awareness  
+- Logical precedence modeling  
+- Condition tree design  
+
+---
+
+### 3️⃣ Prime Factorization & LCM (MMC)
+
+Example analyzed:
+
+```
+8  = 2³
+12 = 2² × 3
+15 = 3 × 5
+```
+
+LCM rule:
+
+Select the highest exponent of each prime factor:
+
+- 2³
+- 3¹
+- 5¹
+
+LCM = 2³ × 3 × 5 = 120
+
+Important correction:
+
+An exponent slip (2² instead of 2³) occurred.  
+Conceptual reasoning was correct; arithmetic execution required adjustment.
+
+---
+
+## 💻 VS Code Exercises Completed
+
+### Exercise 1 — Basic Divisibility by 3
+
+```python
+number = int(input("Choose a number:"))
+
+if number % 3 == 0:
+    print("Divisible by 3")
+else:
+    print("Not divisible by 3")
+```
+
+Concept reinforced:
+- Binary condition evaluation
+- Clean `if / else` structure
+
+---
+
+### Exercise 2 — Combined Divisibility (3 and 5)
+
+```python
+number = int(input("Choose a number:"))
+
+if number % 3 == 0 and number % 5 == 0:
+    print("Multiple of 3 and 5")
+elif number % 5 == 0:
+    print("Multiple of 5")
+elif number % 3 == 0:
+    print("Multiple of 3")
+else:
+    print("Not a multiple of 3 or 5")
+```
+
+Concept reinforced:
+- Compound boolean conditions
+- Ordering logic
+- Reachability control
+- Structured branching
+
+---
+
+## 🔍 Technical Consolidation
+
+This session strengthened:
+
+- Execution flow modeling  
+- Boolean combination logic  
+- Conditional hierarchy awareness  
+- Integration of arithmetic reasoning with control structures  
+- Error-type identification (conceptual vs arithmetic execution)
+
+---
+
+## 📈 Status
+
+- Divisibility modeling: consolidated  
+- Conditional ordering: internalized  
+- LCM reasoning: structurally understood  
+- Control flow clarity: increasing  
+
+---
+
+## 🔜 Next Technical Direction
+
+- Extended divisibility chains  
+- LCM practice with automation  
+- Integrating divisibility logic inside functions  
+- Introducing reusable logic blocks
+
+---
