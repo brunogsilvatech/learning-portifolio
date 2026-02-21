@@ -1734,3 +1734,179 @@ Avoid unnecessary cleverness.
 Write code for readability and maintenance.
 
 ---
+
+# Learning Log — Python Fundamentals — Control Flow & Logical Design  
+**Date:** 2026-02-21 (Sat)  
+**Start Time:** 07:16 (BRT)  
+**Plan:** New exercise today; structured review tomorrow.
+
+---
+
+## Main Topic
+**Conditional Structures (if / elif / else)**  
+Classification of a number by:
+
+- Zero
+- Sign (positive vs negative)
+- Parity (even vs odd)
+
+---
+
+## Objective of the Session
+
+Move from basic syntax usage to structured logical design.  
+Understand execution flow in `if/elif/else` chains and improve decision-tree modeling.
+
+---
+
+## What Was Practiced and Consolidated
+
+### 1. Logical Classification Model
+
+Worked on building a decision structure capable of classifying a number according to:
+
+- Zero
+- Sign
+- Parity
+
+Key realization:
+
+- `4` is **even**
+- `-4` is also **even**
+- Sign does not affect parity
+
+This reinforced separation of concerns in logical modeling.
+
+---
+
+### 2. Critical Insight — Why the First Structure Failed
+
+Initial structure attempt:
+
+```python
+if number == 0:
+    ...
+elif number > 0:
+    ...
+elif number < 0:
+    ...
+elif number % 2 == 0:
+    ...
+else:
+    ...
+```
+
+Problem identified:
+
+- Once `number < 0` is True, execution stops.
+- The parity condition is never evaluated.
+- `elif` chains stop at the first True condition.
+
+Engineering conclusion:
+
+> The order and structure of conditions directly affect execution outcome.
+
+This demonstrated understanding of execution flow, not just syntax.
+
+---
+
+### 3. Decision Tree Thinking
+
+Reframed the logic as a hierarchical model:
+
+```
+NUMBER
+ ├── Zero
+ ├── Positive
+ │     ├── Even
+ │     └── Odd
+ └── Negative
+       ├── Even
+       └── Odd
+```
+
+This shift represents movement from linear condition stacking to structured logical design.
+
+---
+
+### 4. Architectural Comparison
+
+Two approaches evaluated:
+
+#### A) Linear (Single if/elif Chain)
+
+- Multiple combined conditions
+- Grows verbose quickly
+- Harder to scale
+
+#### B) Modular (Small Reusable Functions)
+
+Example conceptual structure:
+
+```python
+def sign(n):
+    ...
+
+def parity(n):
+    ...
+```
+
+Then composing:
+
+```python
+return sign(n) + " " + parity(n)
+```
+
+Decision made in favor of modular design for:
+
+- Reusability
+- Separation of concerns
+- Lower coupling
+- Clearer mental model
+
+This represents an early architectural mindset rather than purely procedural coding.
+
+---
+
+## Engineering Insight
+
+- Learned that `elif` chains terminate at the first True condition.
+- Understood the importance of condition order in control flow.
+- Identified the need for hierarchical modeling when multiple classifications are required.
+- Practiced separating logic into composable units.
+- Shifted from syntax-driven thinking to execution-model thinking.
+
+---
+
+## Knowledge Status (Self-Assessment)
+
+| Area | Status |
+|------|--------|
+| Variables | Stable |
+| Functions | Stable |
+| Loops | Practiced |
+| Conditionals | Consolidating |
+| Logical Structuring | Emerging |
+| Modular Design Thinking | Emerging |
+
+---
+
+## Next Step
+
+- Review both implementations (linear vs modular).
+- Re-implement classification cleanly.
+- Validate clarity and absence of redundant logic.
+- Prepare for introduction of structured data types next phase.
+
+---
+
+## Integrity Note
+
+- Detected and corrected a parity classification mistake independently.
+- Identified execution-flow flaw without external debugging.
+- Refactored mental model from flat condition stack to hierarchical decision structure.
+
+---
+
+**Meta-Level Observation:**  
+The session evolved from learning syntax to understanding control flow mechanics and architectural organization. This marks progression from beginner-level coding toward structured engineering thinking.
