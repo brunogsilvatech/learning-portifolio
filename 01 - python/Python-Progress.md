@@ -1603,3 +1603,134 @@ This session strengthened:
 - Introducing reusable logic blocks
 
 ---
+
+# 📘 Learning Log — 20/02/2026  
+⏱ Duration: ~2h  
+
+## 🎯 Session Objective
+
+- Consolidate understanding of return
+- Differentiate numeric vs boolean return
+- Understand Truthy / Falsy behavior
+- Improve structural clarity in functions
+- Work with composed boolean logic (AND / OR / NOT)
+
+---
+
+## 1️⃣ Numeric vs Boolean Return
+
+python
+return n % 2
+
+
+vs
+
+python
+return n % 2 == 0
+
+
+### Conclusion
+
+- n % 2 → returns numeric value (0 or 1)
+- n % 2 == 0 → returns boolean (True or False)
+
+Functions named is_* should return boolean values.
+
+---
+
+## 2️⃣ Truthy / Falsy in Python
+
+Examples:
+
+- 0 → False
+- 1 → True
+- "" → False
+- "text" → True
+- [] → False
+- [1] → True
+
+if evaluates logical value, not intention.
+
+---
+
+## 3️⃣ Using not
+
+python
+return not n % 2
+
+
+Behavior:
+
+- 4 → 4 % 2 = 0 → not 0 → True
+- 5 → 5 % 2 = 1 → not 1 → False
+
+Works correctly but increases cognitive load.
+
+---
+
+## 4️⃣ Clarity vs Compact Code
+
+Preferred:
+
+python
+return n % 2 == 0
+
+
+Over:
+
+python
+return not n % 2
+
+
+Clarity and maintainability are prioritized over compactness.
+
+---
+
+## 5️⃣ Separation of Responsibility
+
+Layers identified:
+
+- Logic layer → boolean decision
+- Decision layer → conditional flow
+- Presentation layer → print/output
+
+Functions should return reusable data.
+Presentation belongs outside the function.
+
+---
+
+## 6️⃣ Composed Logic
+
+Rule implemented:
+
+> (even OR multiple of 3) AND >10 AND !=14
+
+python
+is_even = (n % 2 == 0)
+is_mult_3 = (n % 3 == 0)
+gt_10 = (n > 10)
+not_14 = (n != 14)
+
+base = is_even or is_mult_3
+return base and gt_10 and not_14
+
+
+Validated cases:
+
+- 12 → True
+- 14 → False
+- 9 → False
+- 11 → False
+
+---
+
+## 📌 Principle Consolidated
+
+Boolean represents decision.
+Strings represent presentation.
+
+Maintain clarity.
+Avoid unnecessary cleverness.
+Write code for readability and maintenance.
+
+---
